@@ -38,7 +38,7 @@ function Navbar(e) {
               onClick={toggleTheme}
               href="javascript: void(0);"
               id="mode"
-              className="px-3 py-3 z-40 text-14 font-normal transition-all duration-300 ease-linear text-white bg-zinc-800 dark:bg-white rounded-3xl"
+              className="px-3 py-3 z-40 text-14 font-normal transition-all duration-300 ease-linear !text-white !bg-zinc-800 dark:bg-white rounded-3xl"
             >
               <i className="mdi mdi-white-balance-sunny text-xl dark:text-zinc-800 hidden dark:block" />
               <i className="mdi mdi-moon-waning-crescent text-xl dark:text-zinc-800 block dark:hidden" />
